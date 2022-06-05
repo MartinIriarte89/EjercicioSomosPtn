@@ -30,6 +30,13 @@ public class ProductTest {
 		cocaZero = new Drink("Coca-Cola Zero", "1.5", 20.0);
 	}
 	
+	/*
+	 * Se encarga de testear que la lista de Prodcuts 
+	 * quede correctamente ordenada por precio para 
+	 * luego poder obtener el primer y el ultimo Product
+	 * y de esa manera tener el mas caro y el mas barato.
+	 * */
+	
 	@Test
 	public void orderProductForCostTest() {
 		List<Product> products = Arrays.asList(frutilla, shampooSedal, cocaCola, cocaZero);

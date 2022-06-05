@@ -45,6 +45,12 @@ public class ConsoleTest {
 				+ "Producto más barato: Coca-Cola\r\n";
 	}
 
+	/*
+	 * Se encarga de testear que la salida por consola
+	 * sea exactamente la que se esperaba al ejecutar el 
+	 * metodo execute() de la clase Console.
+	 * */
+	
 	@Test
 	public void consoleExecutionTest() {
 		System.setOut(new PrintStream(newSystemOut));
