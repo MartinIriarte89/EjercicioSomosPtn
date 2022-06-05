@@ -1,6 +1,5 @@
 package app;
 
-import java.io.IOException;
 import java.util.Arrays;
 
 import console.Console;
@@ -10,7 +9,7 @@ import product.Hygiene;
 
 public class App {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 
 		Console console = new Console();
 
